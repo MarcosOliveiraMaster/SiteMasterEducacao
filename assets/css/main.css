@@ -1051,7 +1051,7 @@ ol {
   font-size: 34px;
   margin-bottom: 25px;
   line-height: 42px;
-  text-transform: capitalize;
+  text-transform: none;
   position: relative;
   font-weight: 800;
 }
@@ -2956,5 +2956,25 @@ ol {
 .footer .footer-newsletter .newsletter-form .button .btn:hover {
   color: #ff8200;
   background-color: #fff;
+}
+
+/* Slideshow styles */
+.slideshow-container {
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.slideshow {
+    display: flex;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slideshow img {
+    min-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.5s ease-in-out;
 }
 
