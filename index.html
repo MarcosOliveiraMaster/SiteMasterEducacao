@@ -131,6 +131,7 @@
             </div>
         </div>
     </section>
+    
     <!-- End Hero Area -->
 
     <!-- Start About Area -->
@@ -227,11 +228,38 @@
                     </div>
                 </div>
             </div>
+            <style>
+                /* Padroniza altura dos cards e aplica hover */
+                #features .col-lg-4.col-md-6.col-12 {
+                    display: flex;
+                    align-items: stretch;
+                }
+                #features .row {
+                    row-gap: 32px;
+                }
+                #features .single-feature {
+                    height: 100%;
+                    transition: transform 0.3s cubic-bezier(.4,2,.6,1), box-shadow 0.3s, border 0.3s;
+                    border: 2px solid transparent;
+                    border-radius: 16px;
+                    background: #fff;
+                    box-shadow: 0 2px 16px rgba(0,0,0,0.04);
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                }
+                #features .single-feature:hover {
+                    transform: scale(1.1);
+                    border-color: orange;
+                    box-shadow: 0 6px 32px rgba(255,140,0,0.15);
+                    z-index: 2;
+                }
+            </style>
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-12">
                     <!-- Start Single Feature -->
                     <div class="single-feature wow fadeInUp" data-wow-delay=".2s">
-                        <i class="lni lni-cloud-upload"></i>
+                        <!-- <i class="lni lni-cloud-upload"></i> -->
                         <h3>Gabriela Edith</h3>
                         <p>Meu filho está se saindo muito melhor com as aulas! Esse reforço está sendo essencial</p>
                     </div>
@@ -240,7 +268,7 @@
                 <div class="col-lg-4 col-md-6 col-12">
                     <!-- Start Single Feature -->
                     <div class="single-feature wow fadeInUp" data-wow-delay=".4s">
-                        <i class="lni lni-lock"></i>
+                        <!-- <i class="lni lni-lock"></i> -->
                         <h3>Keyner Alcântara</h3>
                         <p>Nunca imaginei que ficaria tão satisfeito com um serviço de reforço escoalr. Parabéns pelo excelente trabalho.</p>
                     </div>
@@ -249,7 +277,7 @@
                 <div class="col-lg-4 col-md-6 col-12">
                     <!-- Start Single Feature -->
                     <div class="single-feature wow fadeInUp" data-wow-delay=".6s">
-                        <i class="lni lni-reload"></i>
+                        <!-- <i class="lni lni-reload"></i> -->
                         <h3>Edileusa de Lira</h3>
                         <p>IUma experiência maravilhosa, do atendimento via whatsapp, o professor perfeito, atencioso, excelente didática de ensino!</p>
                     </div>
@@ -258,7 +286,7 @@
                 <div class="col-lg-4 col-md-6 col-12">
                     <!-- Start Single Feature -->
                     <div class="single-feature wow fadeInUp" data-wow-delay=".2s">
-                        <i class="lni lni-shield"></i>
+                        <!-- <i class="lni lni-shield"></i> -->
                         <h3>Christiane Vilarins</h3>
                         <p>Excelente capacidade de perceber a necessidade da aluna. Recomendo sempre!</p>
                     </div>
@@ -267,7 +295,7 @@
                 <div class="col-lg-4 col-md-6 col-12">
                     <!-- Start Single Feature -->
                     <div class="single-feature wow fadeInUp" data-wow-delay=".4s">
-                        <i class="lni lni-cog"></i>
+                        <!-- <i class="lni lni-cog"></i> -->
                         <h3>Monique Pedrosa</h3>
                         <p>As asulas são personalizadas para atender as necessidades da minha filha. Amando a experiência!</p>
                     </div>
@@ -276,15 +304,24 @@
                 <div class="col-lg-4 col-md-6 col-12">
                     <!-- Start Single Feature -->
                     <div class="single-feature wow fadeInUp" data-wow-delay=".6s">
-                        <i class="lni lni-layers"></i>
-                        <h3>Database Backups</h3>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a
-                            page at its layout.</p>
+                        <!-- <i class="lni lni-layers"></i> -->
+                        <h3>Patricia Vieira </h3>
+                        <p>Gratidão pela avaliação Patrícia! Esperamos seguir de mãos dadas até o seu pequeno ganhar total autonomia nos estudos!</p>
                     </div>
                     <!-- End Single Feature -->
                 </div>
             </div>
         </div>
+
+        <!-- Avalie a Master Educação -->
+        <div style="width: 100%; height: 40px;"></div>
+        <div style="width: 100%; display: flex; justify-content: center; margin-top: 100px;">
+                <a href="https://g.page/r/CTjTFJKT_8dmEAI/review" target="_blank" rel="noopener noreferrer" class="btn btn-avalie-master">
+                    Avalie a Master Educação
+                </a>
+        </div>
+
+
     </section>
     <!-- End Features Area -->
 
